@@ -1,0 +1,19 @@
+.projects{
+    padding: 64px 16px 0;
+    &__description{
+        font-weight: 300px;
+        font-size: 16px;
+        line-height: 32px;
+        text-align: center;
+    }
+    &__header{
+        font-size: 36px;
+        line-height: 48px;
+        color: $textDark;
+        text-align: center;
+    }
+}
+
+.project{
+    box-sizing: 0 4px 16px rgba(0, 0, 0, 0.25 );
+}
