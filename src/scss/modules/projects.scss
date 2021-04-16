@@ -49,8 +49,8 @@
     color: $console;
     font-weight: normal;
   }
-  &__link{
-      color: $linkConsole;
+  &__link {
+    color: $linkConsole;
   }
   &__title {
     font-weight: bold;
@@ -64,5 +64,14 @@
     display: flex;
     align-items: center;
     padding: 0 0 0 16px;
+  }
+}
+
+.projects-grid {
+  display: grid;
+  column-gap: 24px;
+  row-gap: 24px;
+  @media (min-width: $tablet) {
+    grid-template-columns: 1fr 1fr;
   }
 }
