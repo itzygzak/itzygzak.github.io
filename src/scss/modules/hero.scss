@@ -38,6 +38,14 @@
         position: absolute;
         top: 0;
       }
+      &::before {
+        background: url('../assets/img/hero-left.svg');
+        right: 100%;
+      }
+      &::after {
+        background: url('../assets/img/hero-right.svg');
+        left: 100%;
+      }
     }
     
   }
@@ -111,5 +119,6 @@
   }
   &__special {
     color: $blue;
+    white-space:nowrap;
   }
 }
