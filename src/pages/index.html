@@ -21,8 +21,14 @@
     <main>
       <section class="hero">
         <div class="hero__image-container">
-          <img src="../assets/img/Przemek.jpg" class="hero__image" alt="Przemek WTF,s photo" />
-          <span class="hero__bubble"><span class="hero__hello">Hey there! ✋</span></span>
+          <img
+            src="../assets/img/Przemek.jpg"
+            class="hero__image"
+            alt="Przemek WTF,s photo"
+          />
+          <span class="hero__bubble"
+            ><span class="hero__hello">Hey there! ✋</span></span
+          >
         </div>
         <div class="hero__description">
           <h1 class="header">
@@ -32,9 +38,11 @@
           </h1>
           <p class="hero__paragraph">
             You might be interested in checking the list of
-            <a class="hero__link" href="#skils">my skills</a>. Don’t forget to have a glimpse at
-            <a class="hero__link" href="#projects">my projects</a>. Currently I’m looking for a new
-            challenges so if you have one - <a class="hero__link" href="#contact">contact me</a> 😊
+            <a class="hero__link" href="#skils">my skills</a>. Don’t forget to
+            have a glimpse at
+            <a class="hero__link" href="#projects">my projects</a>. Currently
+            I’m looking for a new challenges so if you have one -
+            <a class="hero__link" href="#contact">contact me</a> 😊
           </p>
           <a class="hero__contact" href="mailto:pduniec@outlook.com"
             >pduniec@outloook.com</a
@@ -43,42 +51,44 @@
       </section>
       <section class="skills" id="skils">
         <h2 class="skills__header">My skills</h2>
-        <article class="skills-section">
-          <span class="skills__section-emoji">💪</span>
-          <h3 class="skills-section__header">Working knowledge</h3>
-          <ul class="skills-list">
-            <li class="skills-list__item">Programing</li>
-            <li class="skills-list__item">Programing</li>
-            <li class="skills-list__item">Programing</li>
-            <li class="skills-list__item">Programing</li>
-            <li class="skills-list__item">Programing</li>
-            <li class="skills-list__item">Programing</li>
-          </ul>
-        </article>
-        <article class="skills-section">
-          <span class="skills__section-emoji">🤔</span>
-          <h3 class="skills-section__header">Know something about</h3>
-          <ul class="skills-list skills-list--blue">
-            <li class="skills-list__item">English</li>
-            <li class="skills-list__item">English</li>
-            <li class="skills-list__item">English</li>
-            <li class="skills-list__item">English</li>
-            <li class="skills-list__item">English</li>
-            <li class="skills-list__item">English</li>
-          </ul>
-        </article>
-        <article class="skills-section">
-          <span class="skills__section-emoji">🎓</span>
-          <h3 class="skills-section__header">Want to lern</h3>
-          <ul class="skills-list skills-list--dot">
-            <li class="skills-list__item">Karate</li>
-            <li class="skills-list__item">Karate</li>
-            <li class="skills-list__item">Karate</li>
-            <li class="skills-list__item">Karate</li>
-            <li class="skills-list__item">Karate</li>
-            <li class="skills-list__item">Karate</li>
-          </ul>
-        </article>
+        <div class="skills__columns">
+          <article class="skills-section">
+            <span class="skills__section-emoji">💪</span>
+            <h3 class="skills-section__header">Working knowledge</h3>
+            <ul class="skills-list">
+              <li class="skills-list__item">Programing</li>
+              <li class="skills-list__item">Programing</li>
+              <li class="skills-list__item">Programing</li>
+              <li class="skills-list__item">Programing</li>
+              <li class="skills-list__item">Programing</li>
+              <li class="skills-list__item">Programing</li>
+            </ul>
+          </article>
+          <article class="skills-section">
+            <span class="skills__section-emoji">🤔</span>
+            <h3 class="skills-section__header">Know something about</h3>
+            <ul class="skills-list skills-list--blue">
+              <li class="skills-list__item">English</li>
+              <li class="skills-list__item">English</li>
+              <li class="skills-list__item">English</li>
+              <li class="skills-list__item">English</li>
+              <li class="skills-list__item">English</li>
+              <li class="skills-list__item">English</li>
+            </ul>
+          </article>
+          <article class="skills-section">
+            <span class="skills__section-emoji">🎓</span>
+            <h3 class="skills-section__header">Want to lern</h3>
+            <ul class="skills-list skills-list--dot">
+              <li class="skills-list__item">Karate</li>
+              <li class="skills-list__item">Karate</li>
+              <li class="skills-list__item">Karate</li>
+              <li class="skills-list__item">Karate</li>
+              <li class="skills-list__item">Karate</li>
+              <li class="skills-list__item">Karate</li>
+            </ul>
+          </article>
+        </div>
       </section>
       <section class="projects" id="projects">
         <h2 class="projects__header">Recent projects</h2>
@@ -94,28 +104,38 @@
               <span class="project__circle"></span>
             </div>
             <div class="project__content">
-              <img src="../assets/img/github.svg" alt="">
-             <h3 class="project__grid project__title">
-              <span class="project__label">project:</span> <span>dziennik zajęć</span>
-            </h3>
-            <p class="project__grid">
-              <span class="project__label">description:</span>
-              <span>Dziennik zajęć dla domów kultury </span>
-            </p>
-            <p class="project__grid">
-              <span class="project__label">demo:</span>
-              <span
-                >&lt;<a class="project__link" href="#" title="Dziennik zajęć -demo">see_here</a>&lt;
-              </span>
-            </p>
-            <p class="project__grid">
-              <span class="project__label">github:</span>
-              <span
-                >&lt;<a class="project__link" href="#" title="Dziennik zajęć dla domów kultury - code"
-                  >source_code</a
-                >&lt;</span
-              >
-            </p></div>
+              <img src="../assets/img/github.svg" alt="" />
+              <h3 class="project__grid project__title">
+                <span class="project__label">project:</span>
+                <span>dziennik zajęć</span>
+              </h3>
+              <p class="project__grid">
+                <span class="project__label">description:</span>
+                <span>Dziennik zajęć dla domów kultury </span>
+              </p>
+              <p class="project__grid">
+                <span class="project__label">demo:</span>
+                <span
+                  >&lt;<a
+                    class="project__link"
+                    href="#"
+                    title="Dziennik zajęć -demo"
+                    >see_here</a
+                  >&lt;
+                </span>
+              </p>
+              <p class="project__grid">
+                <span class="project__label">github:</span>
+                <span
+                  >&lt;<a
+                    class="project__link"
+                    href="#"
+                    title="Dziennik zajęć dla domów kultury - code"
+                    >source_code</a
+                  >&lt;</span
+                >
+              </p>
+            </div>
           </article>
           <article class="project">
             <div class="project__window">
@@ -124,28 +144,38 @@
               <span class="project__circle"></span>
             </div>
             <div class="project__content">
-              <img src="../assets/img/github.svg" alt="">
-             <h3 class="project__grid project__title">
-              <span class="project__label">project:</span> <span>dziennik zajęć</span>
-            </h3>
-            <p class="project__grid">
-              <span class="project__label">description:</span>
-              <span>Dziennik zajęć dla domów kultury </span>
-            </p>
-            <p class="project__grid">
-              <span class="project__label">demo:</span>
-              <span
-                >&lt;<a class="project__link" href="#" title="Dziennik zajęć -demo">see_here</a>&lt;
-              </span>
-            </p>
-            <p class="project__grid">
-              <span class="project__label">github:</span>
-              <span
-                >&lt;<a class="project__link" href="#" title="Dziennik zajęć dla domów kultury - code"
-                  >source_code</a
-                >&lt;</span
-              >
-            </p></div>
+              <img src="../assets/img/github.svg" alt="" />
+              <h3 class="project__grid project__title">
+                <span class="project__label">project:</span>
+                <span>dziennik zajęć</span>
+              </h3>
+              <p class="project__grid">
+                <span class="project__label">description:</span>
+                <span>Dziennik zajęć dla domów kultury </span>
+              </p>
+              <p class="project__grid">
+                <span class="project__label">demo:</span>
+                <span
+                  >&lt;<a
+                    class="project__link"
+                    href="#"
+                    title="Dziennik zajęć -demo"
+                    >see_here</a
+                  >&lt;
+                </span>
+              </p>
+              <p class="project__grid">
+                <span class="project__label">github:</span>
+                <span
+                  >&lt;<a
+                    class="project__link"
+                    href="#"
+                    title="Dziennik zajęć dla domów kultury - code"
+                    >source_code</a
+                  >&lt;</span
+                >
+              </p>
+            </div>
           </article>
           <article class="project">
             <div class="project__window">
@@ -154,28 +184,38 @@
               <span class="project__circle"></span>
             </div>
             <div class="project__content">
-              <img src="../assets/img/github.svg" alt="">
-             <h3 class="project__grid project__title">
-              <span class="project__label">project:</span> <span>dziennik zajęć</span>
-            </h3>
-            <p class="project__grid">
-              <span class="project__label">description:</span>
-              <span>Dziennik zajęć dla domów kultury </span>
-            </p>
-            <p class="project__grid">
-              <span class="project__label">demo:</span>
-              <span
-                >&lt;<a class="project__link" href="#" title="Dziennik zajęć -demo">see_here</a>&lt;
-              </span>
-            </p>
-            <p class="project__grid">
-              <span class="project__label">github:</span>
-              <span
-                >&lt;<a class="project__link" href="#" title="Dziennik zajęć dla domów kultury - code"
-                  >source_code</a
-                >&lt;</span
-              >
-            </p></div>
+              <img src="../assets/img/github.svg" alt="" />
+              <h3 class="project__grid project__title">
+                <span class="project__label">project:</span>
+                <span>dziennik zajęć</span>
+              </h3>
+              <p class="project__grid">
+                <span class="project__label">description:</span>
+                <span>Dziennik zajęć dla domów kultury </span>
+              </p>
+              <p class="project__grid">
+                <span class="project__label">demo:</span>
+                <span
+                  >&lt;<a
+                    class="project__link"
+                    href="#"
+                    title="Dziennik zajęć -demo"
+                    >see_here</a
+                  >&lt;
+                </span>
+              </p>
+              <p class="project__grid">
+                <span class="project__label">github:</span>
+                <span
+                  >&lt;<a
+                    class="project__link"
+                    href="#"
+                    title="Dziennik zajęć dla domów kultury - code"
+                    >source_code</a
+                  >&lt;</span
+                >
+              </p>
+            </div>
           </article>
         </div>
       </section>
@@ -188,17 +228,26 @@
           <ul class="socials">
             <li class="socials__items">
               <a class="socials__link" href="https;//github.com/itzygzak">
-                <img src="../assets/img/github-blue.svg" class="socials__icon" alt="Przemek WTF's github"
+                <img
+                  src="../assets/img/github-blue.svg"
+                  class="socials__icon"
+                  alt="Przemek WTF's github"
               /></a>
             </li>
             <li class="socials__items">
               <a class="socials__link" href="https;//instagram.com/itzygzak">
-                <img src="../assets/img/instagram.svg" class="socials__icon" alt="Przemek WTF's instagram"
+                <img
+                  src="../assets/img/instagram.svg"
+                  class="socials__icon"
+                  alt="Przemek WTF's instagram"
               /></a>
             </li>
             <li class="socials__items">
               <a class="socials__link" href="https;//Facebook.com/itzygzak">
-                <img src="../assets/img/FB.svg" class="socials__icon" alt="Przemek WTF's facebook"
+                <img
+                  src="../assets/img/FB.svg"
+                  class="socials__icon"
+                  alt="Przemek WTF's facebook"
               /></a>
             </li>
           </ul>
