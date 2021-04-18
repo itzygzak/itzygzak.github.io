@@ -33,7 +33,6 @@
   font-weight: normal;
   font-size: 13px;
   line-height: 24px;
-  /*font-size: 13px;*/
   font-family: Roboto Mono;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
   @media (min-width: $desktop) {
@@ -53,15 +52,20 @@
     @media (min-width: $desktop) {
       padding: 24px 48px 82px;
     }
-    
   }
   &__grid {
     display: grid;
     column-gap: 8px;
+    margin: 0 0 8px 0;
     grid-template-columns: 102px 1fr;
     @media (min-width: $desktop) {
       grid-template-columns: 116px 1fr;
+    }
+    &--description {
+      margin-bottom: 24px;
+    }
   }
+
   &__label {
     display: block;
     text-align: right;
@@ -76,9 +80,11 @@
     font-size: 13px;
     line-height: 24px;
     color: #fff;
+    margin-top: 24px;
     @media (min-width: $desktop) {
       font-size: 16px;
       line-height: 24px;
+    }
   }
   &__window {
     height: 40px;
@@ -93,6 +99,8 @@
   display: grid;
   column-gap: 24px;
   row-gap: 24px;
+  max-width: 1184px;
+  margin: 0 auto;
   @media (min-width: $tablet) {
     grid-template-columns: 1fr 1fr;
   }
