@@ -49,9 +49,9 @@ fetch("https://api.github.com/users/itzygzak/repos?sort=created&direction=asc")
           </p>
         </div>
       </article>`;
-      if (description) {
+      
         container.innerHTML += template;
-      }
+      
     }
   })
   .catch((e) => console.log(e));
