@@ -1,6 +1,6 @@
 import "../scss/main.scss";
 
-console.log("HELLO 🚀");
+console.log("Hi, I'm Przemek - nice to meet you 🚀");
 
 fetch("https://api.github.com/users/itzygzak/repos?sort=created&direction=asc")
   .then((res) => res.json())
@@ -28,7 +28,8 @@ fetch("https://api.github.com/users/itzygzak/repos?sort=created&direction=asc")
           <p class="project__grid">
             <span class="project__label">demo:</span>
             <span
-              >&lt;<a
+              >&lt;<a target="_blank" 
+                rel="noopener noreferrer"
                 class="project__link"
                 href="${homepage}"
                 title="${name} - demo"
@@ -42,6 +43,8 @@ fetch("https://api.github.com/users/itzygzak/repos?sort=created&direction=asc")
               >&lt;<a
                 class="project__link"
                 href="${html_url}"
+                target="_blank" 
+                rel="noopener noreferrer"
                 title="${name} - code"
                 >source_code</a
               >&lt;</span
