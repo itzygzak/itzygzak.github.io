@@ -5,9 +5,9 @@ console.log("Hi, I'm Przemek - nice to meet you 🚀");
 fetch("https://api.github.com/users/itzygzak/repos?sort=created&direction=asc")
   .then((res) => res.json())
   .then((res) => {
-    const container = document.querySelector('.projects-grid--js');
+    const container = document.querySelector(".projects-grid--js");
     for (let repo of res) {
-      const {description, homepage, html_url, name} = repo;
+      const { description, homepage, html_url, name } = repo;
 
       const template = `<article class="project">
         <div class="project__window">
@@ -52,9 +52,8 @@ fetch("https://api.github.com/users/itzygzak/repos?sort=created&direction=asc")
           </p>
         </div>
       </article>`;
-      
-        container.innerHTML += template;
-      
+
+      container.innerHTML += template;
     }
   })
   .catch((e) => console.log(e));

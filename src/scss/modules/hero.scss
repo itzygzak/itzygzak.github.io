@@ -4,7 +4,7 @@
     max-width: 768px;
     margin: 0 auto;
   }
-  @media (min-width: $desktop){
+  @media (min-width: $desktop) {
     max-width: 100%;
     padding-bottom: 176px;
   }
@@ -27,28 +27,28 @@
   }
   &__description {
     text-align: center;
-    @media (min-width: $desktop){
+    @media (min-width: $desktop) {
       max-width: 786px;
       margin: 0 auto;
       position: relative;
-      &::before, &::after{
+      &::before,
+      &::after {
         width: 82.94px;
         height: 254.88px;
-        content: '';
+        content: "";
         display: block;
         position: absolute;
         top: 0;
       }
       &::before {
-        background: url('../assets/img/hero-left.svg');
+        background: url("../assets/img/hero-left.svg");
         right: 100%;
       }
       &::after {
-        background: url('../assets/img/hero-right.svg');
+        background: url("../assets/img/hero-right.svg");
         left: 100%;
       }
     }
-    
   }
   &__header {
     font-size: 26px;
@@ -101,7 +101,7 @@
     align-items: center;
     justify-content: center;
     position: relative;
-    @media(min-width: $desktop){
+    @media (min-width: $desktop) {
       margin-bottom: 48px;
     }
   }
@@ -124,6 +124,6 @@
   }
   &__special {
     color: $blue;
-    white-space:nowrap;
+    white-space: nowrap;
   }
 }
