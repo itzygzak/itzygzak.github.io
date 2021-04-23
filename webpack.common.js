@@ -77,7 +77,7 @@ module.exports = {
 
     /* here you can define another html file and its dependencies */
     new HtmlWebpackPlugin({
-      template: "./src/pages/index.html",
+      template: "./index.html",
       inject: true,
       chunks: ["index"],
       filename: "index.html",
