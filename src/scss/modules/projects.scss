@@ -1,6 +1,6 @@
 .projects {
   padding: 64px 16px 88px;
-  @media (min-width:$desktop){
+  @media (min-width: $desktop) {
     padding: 64px 16px 176px;
   }
   &__description {
